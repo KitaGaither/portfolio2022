@@ -1,0 +1,207 @@
+/* HTML */
+html {
+    scroll-behavior: smooth;
+}
+
+/* WILD CARD */
+* {
+    box-sizing: border-box;
+}
+/* BODY */
+body {
+    background-color: black;
+
+}
+/* NAVBAR */
+.navbar {
+    position: fixed;
+    top: 0;
+    right: 300px;
+    z-index: 100;
+    font-size: 25px;
+    display: inline-flex;
+    margin-top: 0;
+    padding-top: 0;
+
+
+}
+/* LINKS */
+a {
+    color: white;
+    text-decoration: none;
+}
+
+a:link {
+    color: white;
+    text-decoration: none;
+}
+
+a:visited {
+text-decoration: none;
+}
+
+a:hover {
+    text-decoration: none;
+    color: white;
+}
+
+a:active {
+    text-decoration: none;
+    color: white;
+}
+
+button {
+    border-radius: 30px;
+    background-color: #BEAFFE;
+    margin-top: 5px;
+    margin-bottom: 0;
+    height: 75x;
+    width: 150px;
+}
+
+.logo {
+    top: 20px;
+    position: fixed;
+    left: 300px;
+    width: 100%;
+    z-index: 100;
+    font-size: 50px;
+    margin-top: 0px;
+    padding-top: 0;
+    display: inline-flex;
+    color: #BEAFFE;
+
+} 
+
+/* DIV 1 */
+.div_1 {
+    margin-top: 300px;
+    margin-left: 300px;
+    margin-bottom: auto;
+    width: 500px;
+    height: 25px;
+}
+
+.fname {
+    font-size: 150px;
+    color: white;
+    margin-bottom: 0%;
+    padding-bottom: 0%;
+}
+
+.lname {
+    font-size: 150px;
+    color: white;
+    margin-top: 0%;
+    padding-top: 0%;
+}
+
+.p-highlight {
+    color:#BEAFFE;
+    font-size: 25px;
+}
+
+p {
+    color: white;
+    font-size: 35px;
+}
+
+/* DIV 2 */
+.div_2 {
+    margin-top: 0px;
+    margin-right: 0px;
+    margin-left: 1400px;
+    margin-bottom: 1100px;
+    width: 25px;
+    height: 50px;
+    position: relative;
+}
+
+.portfolio-img {
+    width: 700px;
+    height: 700px;
+    margin-bottom: 50px;
+
+}
+
+/* SECTION */
+section {
+    min-height: 1300px;
+    color: white;
+    text-align: center;
+}
+
+h2, h3 {
+    color:#BEAFFE;
+    text-align: center;
+    font-size: 50px;
+    margin-bottom: 75px;
+    margin-top: 100px;
+}
+
+/* ABOUT */
+.li-about {
+    margin-top: 50px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 20px;
+    border: 3px solid #BEAFFE;
+    border-radius: 20px;
+    align-self: center;
+    width: 1000px;
+
+}
+
+h4 {
+    font-size: 50px;
+    color: #BEAFFE;
+}
+
+/* SKILLS */
+.stars {
+    color: #BEAFFE;
+    font-size: 50px;
+}
+
+.progress-container {
+    margin-top: 200px;
+    margin-left: auto;
+    margin-right: auto;
+    border: 3px solid #BEAFFE;
+    border-radius: 20px;
+    align-self: center;
+    width: 1000px;
+}
+
+/* FORM */
+.form {
+   background-color: transparent;
+   color: transparent;
+   margin-top: 100px;
+   margin-left: auto;
+   margin-right: auto;
+
+}
+
+.form-control {
+    background-color: transparent;
+    border: 3px solid #BEAFFE;
+    border-radius: 10px;
+}
+
+/* FOOTER */
+footer {
+    background-color: #BEAFFE;
+    height: 150px;
+    color: white;
+    margin-bottom: 0%;
+}
+
+.footer-text{
+    text-align: center;
+    padding-top: 50px;
+    margin-top: 100px;
+    color: white;
+    font-size: 25px;
+}
+

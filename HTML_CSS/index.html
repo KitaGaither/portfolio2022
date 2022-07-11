@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+  <!-- Head -->
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://meyerweb.com/eric/tools/css/reset/reset.css"
+    />
+    <!--Bootstrap4-->
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+      integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh"
+      crossorigin="anonymous"
+    />
+    <!-- My CSS -->
+    <link rel="stylesheet" href="styles.css" />
+    <title>Kita's Portfolio</title>
+  </head>
+  <body>
+    <!-- Navigation Bar -->
+    <header>
+      <div id="home">
+        <a id="home" class="logo" href="#section_1">&#8365&#484</a>
+        <nav class="navbar navbar-expand-lg">
+          <a id="home" class="nav-link active" href="#section_1">Home</a>
+          <a id="about" class="nav-link" href="#section_2">About</a>
+          <a id="skills" class="nav-link" href="#section_3">Skills</a>
+          <button>
+            <a id="contact" href="#section_4">Contact</a>
+          </button>
+        </nav>
+      </div>
+    </header>
+     <!-- Home Section -->
+     <!-- Left Side of Home Section -->
+    <div class="div-container-1">
+      <section id="section_1">
+        <div class="div_1">
+          <p>HI THERE, &#128075 I'M</p>
+          <h1 class="fname">Kita</h1>
+          <h1 class="lname">Gaither</h1>
+          <h2 class="p-highlight">SOFTWARE ENGINEER</h2>
+          <p>
+            I'm a professional Software Engineer with front and back end skills, based out of Memphis, Tennessee.
+          </p>
+          <button>
+            <a class="nav-link button" href="#section_4">Hire Me</a>
+          </button>
+        </div>
+        <!-- Right Side of Home Section -->
+        <div class="div_2">
+          <img class="portfolio-img" src="./images/undraw_Programmer_re_owql (1)-modified (1).png" alt="software engineer">
+        </div>
+      </section>
+    </div>
+<!-- About Section -->
+    <section id="section_2">
+      <h3>About</h3>
+      <img class="portfolio-img" src="./images/mepurple-modified.png" alt="a picture of lakita gaither">
+      <div class="li-about">
+        <h4>Get to know me!</h4>
+        <ul>
+          <li >Lorem ipsum dolor, sit amet consectetur adipisicing elit. At odit modi numquam earum voluptate adipisci unde. Cumque voluptas ut, quo fugit reprehenderit quidem ratione molestias? Sit soluta repellat ratione culpa.</li>
+        </ul>
+      </div>
+    </section>
+
+<!-- Skills Section -->
+    <section id="section_3">
+      <h3>Skills</h3>
+      <!--Progress Bar-->
+      <div class="progress-container">
+        <p class="progress-p">HTML</p>
+        <p class="stars">&#10029 &#10029 &#10029 &#10029 &#10029</p>
+        <p class="progress-p">CSS</p>
+        <p class="stars">&#10029 &#10029 &#10029 &#10029</p>
+        <p class="progress-p">JavaScript</p>
+        <p class="stars">&#10029 &#10029 &#10029</p>
+      </div>
+    </section>
+
+<!-- Contact Section -->
+    <section id="section_4">
+      <h3>Contact</h3>
+      <div class="container">
+        <div class="row">
+          <div class="col-md-9 form">
+            <!--Contact Form-->
+            <form class="form">
+              <div class="form-group">
+                <label for="fname">First Name</label>
+                <input
+                  class="form-control"
+                  id="fname"
+                  type="text"
+                  placeholder="Enter your first name"
+                  required
+                />
+              </div>
+
+              <div class="form-group">
+                <label for="lname">Last Name</label>
+                <input
+                  class="form-control"
+                  id="lname"
+                  type="text"
+                  placeholder="Enter your last name"
+                  required
+                />
+              </div>
+
+              <div class="form-group">
+                <label for="email">Email</label>
+                <input
+                  class="form-control"
+                  id="email"
+                  type="text"
+                  placeholder="Enter your email"
+                />
+              </div>
+
+              <div class="form-group">
+                <label for="qc">Questions/Concerns</label>
+                <textarea
+                  class="form-control"
+                  id="qc"
+                  type="text"
+                  placeholder="How can we help you?"
+                  rows="20"
+                ></textarea>
+              </div>
+              <!-- This is my button -->
+              <button class="text-white button" id="button" type="submit">Submit</button>
+            </form>
+          </div>
+        </div>
+      </div>
+    </section>
+
+<!-- Footer -->
+    <div>
+      <footer>
+        <h4 class="footer-text"><em>All Rights Reserved | Copyright 2022 | Kita Gaither</em></h4>
+      </footer>
+    </div>
+  </body>
+</html>
