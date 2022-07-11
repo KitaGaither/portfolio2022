@@ -1,3 +1,9 @@
+/* ROOT */
+:root {
+    --purple: #BEAFFE;
+    --black: #000000;
+    --white: #ffffff;
+}
 /* HTML */
 html {
     scroll-behavior: smooth;
@@ -9,7 +15,7 @@ html {
 }
 /* BODY */
 body {
-    background-color: black;
+    background-color: var(--black);
 
 }
 /* NAVBAR */
@@ -27,12 +33,12 @@ body {
 }
 /* LINKS */
 a {
-    color: white;
+    color: var(--white);
     text-decoration: none;
 }
 
 a:link {
-    color: white;
+    color: var(--white);
     text-decoration: none;
 }
 
@@ -42,17 +48,17 @@ text-decoration: none;
 
 a:hover {
     text-decoration: none;
-    color: white;
+    color: var(--white);
 }
 
 a:active {
     text-decoration: none;
-    color: white;
+    color: #ffffff;
 }
 
 button {
     border-radius: 30px;
-    background-color: #BEAFFE;
+    background-color: var(--purple);
     margin-top: 5px;
     margin-bottom: 0;
     height: 75x;
@@ -69,7 +75,7 @@ button {
     margin-top: 0px;
     padding-top: 0;
     display: inline-flex;
-    color: #BEAFFE;
+    color: var(--purple);
 
 } 
 
@@ -84,25 +90,25 @@ button {
 
 .fname {
     font-size: 150px;
-    color: white;
+    color: var(--white);
     margin-bottom: 0%;
     padding-bottom: 0%;
 }
 
 .lname {
     font-size: 150px;
-    color: white;
+    color: var(--white);
     margin-top: 0%;
     padding-top: 0%;
 }
 
 .p-highlight {
-    color:#BEAFFE;
+    color:var(--purple);
     font-size: 25px;
 }
 
 p {
-    color: white;
+    color: var(--white);
     font-size: 35px;
 }
 
@@ -127,12 +133,12 @@ p {
 /* SECTION */
 section {
     min-height: 1300px;
-    color: white;
+    color: var(--white);
     text-align: center;
 }
 
 h2, h3 {
-    color:#BEAFFE;
+    color:var(--purple);
     text-align: center;
     font-size: 50px;
     margin-bottom: 75px;
@@ -145,7 +151,7 @@ h2, h3 {
     margin-left: auto;
     margin-right: auto;
     padding: 20px;
-    border: 3px solid #BEAFFE;
+    border: 3px solid var(--purple);
     border-radius: 20px;
     align-self: center;
     width: 1000px;
@@ -154,12 +160,12 @@ h2, h3 {
 
 h4 {
     font-size: 50px;
-    color: #BEAFFE;
+    color: var(--purple);
 }
 
 /* SKILLS */
 .stars {
-    color: #BEAFFE;
+    color: var(--purple);
     font-size: 50px;
 }
 
@@ -167,7 +173,7 @@ h4 {
     margin-top: 200px;
     margin-left: auto;
     margin-right: auto;
-    border: 3px solid #BEAFFE;
+    border: 3px solid var(--purple);
     border-radius: 20px;
     align-self: center;
     width: 1000px;
@@ -185,15 +191,15 @@ h4 {
 
 .form-control {
     background-color: transparent;
-    border: 3px solid #BEAFFE;
+    border: 3px solid var(--purple);
     border-radius: 10px;
 }
 
 /* FOOTER */
 footer {
-    background-color: #BEAFFE;
+    background-color: var(--purple);
     height: 150px;
-    color: white;
+    color: var(--white);
     margin-bottom: 0%;
 }
 
@@ -201,7 +207,7 @@ footer {
     text-align: center;
     padding-top: 50px;
     margin-top: 100px;
-    color: white;
+    color: var(--white);
     font-size: 25px;
 }
 
